@@ -1,0 +1,104 @@
+/* Reset default browser styles */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set font family */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #D8CFCA; /* Set background color */
+    color: #333;
+    padding: 20px;
+}
+
+/* Heading style */
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+/* Paragraph style */
+p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* Image style */
+.profile-img {
+    width: 500px; /* Set fixed width */
+    height: 400px; /* Set fixed height */
+    object-fit: cover;
+    border-radius: 8px; /* Add border radius for square shape */
+    margin-right: 20px; /* Add some space to the right of the image */
+}
+
+/* Contact button style */
+.contact-btn {
+    display: block;
+    width: 200px;
+    margin-top: 20px;
+    padding: 10px 20px;
+    text-align: center;
+    background-color: #010101;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.contact-btn:hover {
+    background-color: #F4753E;
+    color: #fff; /* Change text color on hover */
+}
+
+
+/* Left side content */
+.left-content {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px; /* Add margin to separate from contact info */
+}
+
+/* Text content */
+.text-content {
+    flex: 1; /* Take remaining width */
+}
+
+/* Contact info section */
+.contact-info {
+    display: flex; /* Change display to flex */
+    flex-wrap: wrap; /* Allow wrapping of info boxes */
+    justify-content: flex-start; /* Align boxes from left to right */
+    margin-top: 50px; /* Add some space from the top */
+}
+
+/* Info box style */
+.info-box {
+    width: calc(23.33% - 40px); /* Adjust width as needed */
+    height: 100px; /* Adjust height as needed */
+    background-color:#F4753E;
+    color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px; /* Adjust padding as needed */
+    border-radius: 5px;
+    margin-right: 50px; 
+    margin-left: 70px;/* Adjust the space between info boxes */
+    margin-bottom: 20px; /* Add some space between rows */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-box h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Info box paragraph style */
+.info-box p {
+    font-size: 16px;
+}
+
